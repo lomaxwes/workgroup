@@ -1,0 +1,5 @@
+numbers = input("Ввод: ")
+print(numbers)
+numbers_split = numbers.split()
+numbers_lines = "\n".join(numbers_split)
+print("Вывод:\n", numbers_lines)

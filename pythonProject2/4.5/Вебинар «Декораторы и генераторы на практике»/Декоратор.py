@@ -1,0 +1,4 @@
+def area(height, width):
+    return height * width
+
+

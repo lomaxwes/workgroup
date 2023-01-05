@@ -1,0 +1,6 @@
+s1 = input()
+s2 = input()
+s1 = set(s1.split())
+s2 = set(s2.split())
+a = list(s1.difference(s2))
+print(a)
